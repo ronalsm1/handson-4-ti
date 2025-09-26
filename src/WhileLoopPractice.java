@@ -34,6 +34,10 @@ public class WhileLoopPractice {
         System.out.println("TODO 2: Count down 10 to 1");
         int countdown = 10;
         // Your code here:
+        while (countdown >= 1) {
+            System.out.println("Hitung mundur: " + countdown);
+            countdown--;
+        }
 
 
         System.out.println();
@@ -43,6 +47,10 @@ public class WhileLoopPractice {
         System.out.println("TODO 3: Even numbers 2 to 20");
         int evenNum = 2;
         // Your code here:
+        while (evenNum <= 20) {
+            System.out.println("Bilangan genap 2 ke 20: " + evenNum);
+            evenNum += 2;
+        }
 
 
         System.out.println();
@@ -53,7 +61,10 @@ public class WhileLoopPractice {
         int i = 1;
         int sum = 0;
         // Your code here:
-
+        while (i <= 100) {
+            sum += i;
+            i++;
+        }
 
         System.out.println("Sum: " + sum);
         System.out.println();
@@ -65,7 +76,10 @@ public class WhileLoopPractice {
         int factorial = 1;
         int counter = 1;
         // Your code here:
-
+        while (n >= counter) {
+            factorial *= n;
+            n--;
+        }
 
         System.out.println("5! = " + factorial);
         System.out.println();
@@ -75,7 +89,10 @@ public class WhileLoopPractice {
         System.out.println("TODO 6: First multiple of 3 and 7");
         int number = 1;
         // Your code here:
-
+        while (number % 3 != 0 || number % 7 != 0) {
+            number++;
+        }
+        System.out.println("KPK dari 3 dan 7 adalah: " + number);
 
         System.out.println();
 
@@ -86,7 +103,13 @@ public class WhileLoopPractice {
         int index = 0;
         int vowelCount = 0;
         // Your code here:
-
+        while (index < text.length()) {
+            char vowel = text.charAt(index);
+            switch (vowel) {
+                case 'a', 'i', 'u', 'e', 'o' -> vowelCount++;
+            }
+            index++;
+        }
 
         System.out.println("Vowel count: " + vowelCount);
         System.out.println();
@@ -99,7 +122,10 @@ public class WhileLoopPractice {
         int result = 1;
         int exp = 0;
         // Your code here:
-
+        while (exp < exponent) {
+            result *= base;
+            exp++;
+        }
 
         System.out.println("2^8 = " + result);
         System.out.println();
@@ -110,7 +136,10 @@ public class WhileLoopPractice {
         int num = 12345;
         int digitSum = 0;
         // Your code here:
-
+        while (num > 0) {
+            digitSum += num % 10;
+            num /= 10;
+        }
 
         System.out.println("Sum of digits: " + digitSum);
         System.out.println();
@@ -123,7 +152,10 @@ public class WhileLoopPractice {
         int guess = 1;
         int attempts = 0;
         // Your code here:
-
+        while (guess != target) {
+            guess++;
+            attempts++;
+        }
 
         System.out.println("Found " + target + " in " + attempts + " attempts");
 
