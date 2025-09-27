@@ -21,12 +21,13 @@ public class DoWhileLoopPractice {
         System.out.println("TODO 1: Count 1 to 5");
         int count = 1;
         // Your code here:
+        System.out.println("Hitung: ");
         do {
-            System.out.println("Hitung: " + count);
+            System.out.print(count + "  ");
             count++;
         } while (count <= 5);
 
-
+        System.out.println();
         System.out.println();
 
         // TODO 2: Menu Simulation

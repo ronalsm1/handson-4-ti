@@ -21,12 +21,13 @@ public class WhileLoopPractice {
         System.out.println("TODO 1: Count 1 to 10");
         int count = 1;
         // Your code here:
+        System.out.println("Hitung: ");
         while (count <= 10) {
-            System.out.println("Hitung: " + count);
+            System.out.print(count + "  ");
             count++;
         }
 
-
+        System.out.println();
         System.out.println();
 
         // TODO 2: Count Down from 10 to 1
@@ -34,12 +35,13 @@ public class WhileLoopPractice {
         System.out.println("TODO 2: Count down 10 to 1");
         int countdown = 10;
         // Your code here:
+        System.out.println("Hitung mundur: ");
         while (countdown >= 1) {
-            System.out.println("Hitung mundur: " + countdown);
+            System.out.print(countdown + "  ");
             countdown--;
         }
 
-
+        System.out.println();
         System.out.println();
 
         // TODO 3: Even Numbers
@@ -47,12 +49,13 @@ public class WhileLoopPractice {
         System.out.println("TODO 3: Even numbers 2 to 20");
         int evenNum = 2;
         // Your code here:
+        System.out.println("Bilangan genap 2 ke 20: ");
         while (evenNum <= 20) {
-            System.out.println("Bilangan genap 2 ke 20: " + evenNum);
+            System.out.print(evenNum + "  ");
             evenNum += 2;
         }
 
-
+        System.out.println();
         System.out.println();
 
         // TODO 4: Sum of Numbers
